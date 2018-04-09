@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
 
-var users = ['freecodecamp', 'skylias', 'kelpamilli', 'simarchy'];
+var users = ['freecodecamp', 'skylias', 'kelpamilli', 'simarchy', 'mistydawn95', 'breebunn', 'shadypenguinn'];
 var userInformation = [];
 
 // API request
