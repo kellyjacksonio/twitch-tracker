@@ -1,12 +1,16 @@
 body {
-    background-color: pink;
+    background-color: #209CD6;
     margin-left: 10%;
     margin-right: 10%;
     color: white;
 }
 
+h1 {
+    padding-top: 36px;
+}
+
 .red {
-    background-color: #209CD6;
+    background-color: #d11b1b;
 }
 
 .red:hover { 
