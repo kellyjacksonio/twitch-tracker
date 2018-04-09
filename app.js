@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var request = require('request');
 var bodyParser = require('body-parser');
+var route = 8080;
 
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');
@@ -35,6 +36,6 @@ app.get('/', (req, res) => {
     res.render('index', {userInformation: userInformation});
 });
 
-app.listen(process.env.PORT, process.env.IP, () => {
+app.listen(route, () => {
     console.log('listening!');
 });
