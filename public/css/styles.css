@@ -1,12 +1,20 @@
 body {
     background-color: #209CD6;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
     color: white;
 }
 
 h1 {
     padding-top: 36px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #5bcbff;
 }
 
 .red {
