@@ -1,7 +1,6 @@
 const   express = require('express'),
         app     = express(),
         request = require('request'),
-// bodyParser = require('body-parser'),
         port    = process.env.PORT || 8080;
 
 app.use(express.static(__dirname + '/public'));
